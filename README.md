@@ -1,67 +1,67 @@
 # Emancipated Checker
 
-BU ÜRÜN GELİŞTİRİLME AŞAMASINDADIR!
+THIS APPLİCATION IS CURRENTLY DEVELOPİNG....
 
-Emancipated Checker, çeşitli teknolojik kavramlar üzerinde analiz ve doğrulama işlemleri gerçekleştiren bir panel aracıdır. Bu uygulama, farklı teknolojik alanlarda kullanıcıların ihtiyaç duyabileceği çeşitli işlevleri bir araya getirerek kullanıcıların işlerini kolaylaştırmayı hedefler.
+Emancipated Checker is a panel tool that performs analysis and validation processes on various technological concepts. This application aims to bring together various functions that users may need in different technological areas to facilitate their work.
 
-## Özellikler
+## Features
 
-Emancipated Checker şu özellikleri sunar:
+Emancipated Checker offers the following features:
 
-### MERNIS Doğrulama
-- MERNIS (Merkezi Nüfus İdaresi) doğrulama servisini kullanarak kişilerin kimlik bilgilerini doğrular.
+### MERNIS Validation
+- Validates individuals' identity information using the MERNIS (Central Population Administration) validation service.
 
-### Sorgu ve Method Kontrolü
-- C# ve JavaScript gibi programlama dillerinde kullanılan sorgu ve methodları kontrol eder.
+### Query and Method Control
+- Controls queries and methods used in programming languages ​​such as C# and JavaScript.
 
-### DNS Sorgusu
-- Belirtilen bir alan adının DNS (Domain Name System) kayıtlarını sorgular ve sonuçları gösterir.
+### DNS Query
+- Queries and displays the DNS (Domain Name System) records of a specified domain name.
 
-### Hack Kontrolü
-- Kullanıcıların güvenlik açısından risk taşıyan parolaları kontrol eder ve uyarı verir.
+### Hack Control
+- Checks for passwords that pose security risks for users and provides warnings.
 
-### Veritabanı İşlemleri
-- Veritabanı işlemleri için gerekli olan bağlantı ve sorguları gerçekleştirir.
+### Database Operations
+- Performs necessary connections and queries for database operations.
 
-### Localhost Bağlantısı
-- Localhost üzerinde çalışan uygulamaları kontrol eder ve bağlantı durumunu raporlar.
+### Localhost Connection
+- Checks applications running on localhost and reports connection status.
 
-### Netstat Etkin Bağlantılar
-- `netstat` komutuyla sistemdeki etkin bağlantıları listeler ve detaylı bilgi sunar.
+### Netstat Active Connections
+- Lists active connections on the system using the `netstat` command and provides detailed information.
 
-## Ürün Anahtarları ve Fiyatlar
+## Product Keys and Prices
 
-- **Lamer:** 10 ₺
-- **Beginner:** 25 ₺
-- **H4CK€R:** 40 ₺
-- **AIO (All-in-one):** 500 ₺
+- **Lamer:** $10
+- **Beginner:** $25
+- **H4C€R:** $40
+- **AIO (All-in-one):** $500
 
-## Abonelik İçerikleri
+## Subscription Contents
 
-### AIO (All-in-one) Versiyonu
-- Emancipated Enviroment
+### AIO (All-in-one) Version
+- Emancipated Environment
 - Emancipated Source
 - Emancipated Generators
 - Emancipated Tools
 - Emancipated Core
 
-### Hacker Versiyonu
-- Emancipated Enviroment
+### Hacker Version
+- Emancipated Environment
 - Emancipated Tools
 - Emancipated Core
 
-### Beginner Versiyonu
-- Emancipated Enviroment Basic
+### Beginner Version
+- Emancipated Environment Basic
 
-### Lamer Versiyonu
-Hiçbir içerik bulunmaz.
+### Lamer Version
+No content available.
 
-## Özgürlük Bildirgesi
+## Freedom Declaration
 
-Emancipated Checker, her türlü teknolojik analiz ve doğrulama işlemleri için özgürce kullanılabilir. Kullanıcılar, uygulamanın sunduğu tüm özellikleri istedikleri şekilde kullanabilirler.
+Emancipated Checker can be freely used for all kinds of technological analysis and validation processes. Users can use all the features provided by the application as they wish.
 
-Ancak, kullanıcılar uygulamayı kullanırken yasal sınırlamaları göz önünde bulundurmalıdır. Uygulama geliştiricisi, kullanıcıların uygulamanın kullanımı sırasında yasalara uymakla yükümlü olduklarını hatırlatır.
+However, users should consider legal limitations when using the application. The application developer reminds users that they are responsible for complying with the laws while using the application.
 
-Emancipated Checker'ı kullanarak, kullanıcılar yukarıdaki özgürlük bildirgesini kabul etmiş sayılırlar ve uygulamanın kullanımıyla ilgili olarak bu bildirgeye uymakla yükümlüdürler.
+By using Emancipated Checker, users are deemed to have accepted the freedom declaration above and are obliged to comply with this declaration regarding the use of the application.
 
-Eğer özgürlük ile ilgili herhangi bir sorunuz veya geri bildiriminiz varsa, lütfen bize ulaşın.
+If you have any questions or feedback regarding freedom, please contact us.
