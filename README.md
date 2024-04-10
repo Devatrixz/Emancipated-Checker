@@ -33,7 +33,7 @@ Emancipated Checker şu özellikleri sunar:
 
 - **Lamer:** 10 ₺
 - **Beginner:** 25 ₺
-- **H4C€R:** 40 ₺
+- **H4CK€R:** 40 ₺
 - **AIO (All-in-one):** 500 ₺
 
 ## Abonelik İçerikleri
