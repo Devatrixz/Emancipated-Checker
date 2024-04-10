@@ -1,5 +1,7 @@
 # Emancipated Checker
 
+BU ÜRÜN GELİŞTİRİLME AŞAMASINDADIR!
+
 Emancipated Checker, çeşitli teknolojik kavramlar üzerinde analiz ve doğrulama işlemleri gerçekleştiren bir panel aracıdır. Bu uygulama, farklı teknolojik alanlarda kullanıcıların ihtiyaç duyabileceği çeşitli işlevleri bir araya getirerek kullanıcıların işlerini kolaylaştırmayı hedefler.
 
 ## Özellikler
