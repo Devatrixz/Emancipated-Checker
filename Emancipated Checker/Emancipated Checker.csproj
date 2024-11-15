@@ -1,0 +1,578 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9F2C6999-77E5-42A0-970C-D012EC5AD014}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Emancipated_Checker</RootNamespace>
+    <AssemblyName>Emancipated Checker</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <PublishUrl>C:\Users\Suat\Desktop\Emancipated Checker\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <UpdateUrl>http://localhost/Emancipated Checker/</UpdateUrl>
+    <TargetCulture>tr</TargetCulture>
+    <ProductName>Emancipated Checker</ProductName>
+    <PublisherName>Emancipated Team</PublisherName>
+    <SuiteName>Emancipated Checker</SuiteName>
+    <WebPage>www.emancipatedglobal.wuaze.com</WebPage>
+    <AutorunEnabled>true</AutorunEnabled>
+    <ApplicationRevision>5632</ApplicationRevision>
+    <ApplicationVersion>1.39.901.5632</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <CreateDesktopShortcut>true</CreateDesktopShortcut>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>accessibilitycpl_327.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>1F25E6C85C4F9B2F763645C4BD71E4C0D4E1099B</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>
+    </ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>Emancipated Checker_TemporaryKey.pfx</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <DelaySign>false</DelaySign>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="libKimlik, Version=1.0.0.0, Culture=neutral, PublicKeyToken=b05860addad8f4d4, processorArchitecture=MSIL">
+      <HintPath>..\packages\libKimlik.1.0.0\lib\netstandard2.0\libKimlik.dll</HintPath>
+    </Reference>
+    <Reference Include="Markdig, Version=0.37.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Markdig.0.37.0\lib\net462\Markdig.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualStudio.DebuggerVisualizers, Version=16.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Web.WebView2.Core, Version=1.0.2535.41, Culture=neutral, PublicKeyToken=2a8ab48044d2601e, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Web.WebView2.1.0.2535.41\lib\net462\Microsoft.Web.WebView2.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Web.WebView2.WinForms, Version=1.0.2535.41, Culture=neutral, PublicKeyToken=2a8ab48044d2601e, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Web.WebView2.1.0.2535.41\lib\net462\Microsoft.Web.WebView2.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Web.WebView2.Wpf, Version=1.0.2535.41, Culture=neutral, PublicKeyToken=2a8ab48044d2601e, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Web.WebView2.1.0.2535.41\lib\net462\Microsoft.Web.WebView2.Wpf.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.13.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Memory, Version=4.0.1.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Memory.4.5.5\lib\net461\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors, Version=4.1.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.6.0.0\lib\net461\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="TurkishCitizenIdentity, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\TcKimlikNumarasi-Dogrulama.1.0.2\lib\TurkishCitizenIdentity.dll</HintPath>
+    </Reference>
+    <Reference Include="UIAutomationProvider" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="WindowsFormsIntegration" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutBox.Designer.cs">
+      <DependentUpon>AboutBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AccountManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AccountManager.Designer.cs">
+      <DependentUpon>AccountManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Buy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Buy.Designer.cs">
+      <DependentUpon>Buy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CancelPurchase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CancelPurchase.Designer.cs">
+      <DependentUpon>CancelPurchase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Customise.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customise.Designer.cs">
+      <DependentUpon>Customise.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DNS_Check.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DNS_Check.Designer.cs">
+      <DependentUpon>DNS_Check.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GetDeveloperPermission.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GetDeveloperPermission.Designer.cs">
+      <DependentUpon>GetDeveloperPermission.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GetToken.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GetToken.Designer.cs">
+      <DependentUpon>GetToken.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HelpIndex.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HelpIndex.Designer.cs">
+      <DependentUpon>HelpIndex.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Http.cs" />
+    <Compile Include="IP Check.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IP Check.Designer.cs">
+      <DependentUpon>IP Check.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Keygen API.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Keygen API.Designer.cs">
+      <DependentUpon>Keygen API.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MernisChecker.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MernisChecker.Designer.cs">
+      <DependentUpon>MernisChecker.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NoInternet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NoInternet.Designer.cs">
+      <DependentUpon>NoInternet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\AccMan_Home.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pages\AccMan_Home.Designer.cs">
+      <DependentUpon>AccMan_Home.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\AccMan_Login.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pages\AccMan_Login.Designer.cs">
+      <DependentUpon>AccMan_Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\AccMan_SignUp.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pages\AccMan_SignUp.Designer.cs">
+      <DependentUpon>AccMan_SignUp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\MailSys\TempMail_MailBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pages\MailSys\TempMail_MailBox.Designer.cs">
+      <DependentUpon>TempMail_MailBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\MernisChecker_Home.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pages\MernisChecker_Home.Designer.cs">
+      <DependentUpon>MernisChecker_Home.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\MernisChecker_Login.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pages\MernisChecker_Login.Designer.cs">
+      <DependentUpon>MernisChecker_Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\MernisChecker_Sorgula.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pages\MernisChecker_Sorgula.Designer.cs">
+      <DependentUpon>MernisChecker_Sorgula.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\NoAccountFind.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pages\NoAccountFind.Designer.cs">
+      <DependentUpon>NoAccountFind.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Personalize\Tmm_CustomMusic.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pages\Personalize\Tmm_CustomMusic.Designer.cs">
+      <DependentUpon>Tmm_CustomMusic.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Personalize\Tmm_Despair.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pages\Personalize\Tmm_Despair.Designer.cs">
+      <DependentUpon>Tmm_Despair.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Personalize\Tmm_Emancipated.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pages\Personalize\Tmm_Emancipated.Designer.cs">
+      <DependentUpon>Tmm_Emancipated.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Personalize\Tmm_Hank_Wants_Peace.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pages\Personalize\Tmm_Hank_Wants_Peace.Designer.cs">
+      <DependentUpon>Tmm_Hank_Wants_Peace.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Personalize\Tmm_Menu.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pages\Personalize\Tmm_Menu.Designer.cs">
+      <DependentUpon>Tmm_Menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Personalize\Tmm_Something_Sensible.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pages\Personalize\Tmm_Something_Sensible.Designer.cs">
+      <DependentUpon>Tmm_Something_Sensible.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="PromotionCode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PromotionCode.Designer.cs">
+      <DependentUpon>PromotionCode.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="requirementsscan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="requirementsscan.Designer.cs">
+      <DependentUpon>requirementsscan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SecretMode\Dduhvlfoln_elu_upuyyuu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SecretMode\Dduhvlfoln_elu_upuyyuu.Designer.cs">
+      <DependentUpon>Dduhvlfoln_elu_upuyyuu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Starter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Starter.Designer.cs">
+      <DependentUpon>Starter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Store.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pages\Store.Designer.cs">
+      <DependentUpon>Store.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SupportChatAI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SupportChatAI.Designer.cs">
+      <DependentUpon>SupportChatAI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SupportTicketForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SupportTicketForm.Designer.cs">
+      <DependentUpon>SupportTicketForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TempMail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TempMail.Designer.cs">
+      <DependentUpon>TempMail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ThemeMusicSettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ThemeMusicSettings.Designer.cs">
+      <DependentUpon>ThemeMusicSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WebHook Manager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WebHook Manager.Designer.cs">
+      <DependentUpon>WebHook Manager.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AboutBox.resx">
+      <DependentUpon>AboutBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AccountManager.resx">
+      <DependentUpon>AccountManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Buy.resx">
+      <DependentUpon>Buy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CancelPurchase.resx">
+      <DependentUpon>CancelPurchase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customise.resx">
+      <DependentUpon>Customise.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DNS_Check.resx">
+      <DependentUpon>DNS_Check.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GetDeveloperPermission.resx">
+      <DependentUpon>GetDeveloperPermission.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GetToken.resx">
+      <DependentUpon>GetToken.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HelpIndex.resx">
+      <DependentUpon>HelpIndex.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IP Check.resx">
+      <DependentUpon>IP Check.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Keygen API.resx">
+      <DependentUpon>Keygen API.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MernisChecker.resx">
+      <DependentUpon>MernisChecker.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NoInternet.resx">
+      <DependentUpon>NoInternet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\AccMan_Home.resx">
+      <DependentUpon>AccMan_Home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\AccMan_Login.resx">
+      <DependentUpon>AccMan_Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\AccMan_SignUp.resx">
+      <DependentUpon>AccMan_SignUp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\MailSys\TempMail_MailBox.resx">
+      <DependentUpon>TempMail_MailBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\MernisChecker_Home.resx">
+      <DependentUpon>MernisChecker_Home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\MernisChecker_Login.resx">
+      <DependentUpon>MernisChecker_Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\MernisChecker_Sorgula.resx">
+      <DependentUpon>MernisChecker_Sorgula.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\NoAccountFind.resx">
+      <DependentUpon>NoAccountFind.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\Personalize\Tmm_CustomMusic.resx">
+      <DependentUpon>Tmm_CustomMusic.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\Personalize\Tmm_Despair.resx">
+      <DependentUpon>Tmm_Despair.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\Personalize\Tmm_Emancipated.resx">
+      <DependentUpon>Tmm_Emancipated.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\Personalize\Tmm_Hank_Wants_Peace.resx">
+      <DependentUpon>Tmm_Hank_Wants_Peace.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\Personalize\Tmm_Menu.resx">
+      <DependentUpon>Tmm_Menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\Personalize\Tmm_Something_Sensible.resx">
+      <DependentUpon>Tmm_Something_Sensible.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PromotionCode.resx">
+      <DependentUpon>PromotionCode.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="requirementsscan.resx">
+      <DependentUpon>requirementsscan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SecretMode\Dduhvlfoln_elu_upuyyuu.resx">
+      <DependentUpon>Dduhvlfoln_elu_upuyyuu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Starter.resx">
+      <DependentUpon>Starter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\Store.resx">
+      <DependentUpon>Store.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SupportChatAI.resx">
+      <DependentUpon>SupportChatAI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SupportTicketForm.resx">
+      <DependentUpon>SupportTicketForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TempMail.resx">
+      <DependentUpon>TempMail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ThemeMusicSettings.resx">
+      <DependentUpon>ThemeMusicSettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WebHook Manager.resx">
+      <DependentUpon>WebHook Manager.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Emancipated Checker_1_TemporaryKey.pfx" />
+    <None Include="Emancipated Checker_TemporaryKey.pfx" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\075.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\132.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\148.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="accessibilitycpl_327.ico" />
+    <None Include="Resources\Mission_Snapshots_UpClose.png" />
+    <None Include="Resources\523.png" />
+    <None Include="Resources\2.png" />
+    <None Include="Resources\320.png" />
+    <None Include="Resources\518.png" />
+    <None Include="Resources\Mission_Snapshots_Roofs.png" />
+    <None Include="Resources\beat the streets.png" />
+    <None Include="Resources\037.png" />
+    <None Include="Resources\094.png" />
+    <None Include="Resources\032.png" />
+    <None Include="Resources\295.png" />
+    <None Include="Resources\081.png" />
+    <None Include="Resources\049.png" />
+    <None Include="Resources\290.png" />
+    <None Include="Resources\139.png" />
+    <None Include="Resources\335.png" />
+    <None Include="Resources\093.png" />
+    <None Include="Resources\015.png" />
+    <None Include="Resources\016.png" />
+    <None Include="Resources\309.png" />
+    <None Include="Resources\533.png" />
+    <None Include="Resources\375.png" />
+    <None Include="Resources\272.png" />
+    <None Include="Resources\080.png" />
+    <None Include="Resources\302.png" />
+    <None Include="Resources\071.png" />
+    <None Include="Resources\074.png" />
+    <None Include="Resources\211.png" />
+    <None Include="Resources\014.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.1">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.1 %28x86 ve x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 </ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="..\packages\Microsoft.Web.WebView2.1.0.2535.41\build\Microsoft.Web.WebView2.targets" Condition="Exists('..\packages\Microsoft.Web.WebView2.1.0.2535.41\build\Microsoft.Web.WebView2.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>Bu proje bu bilgisayarda olmayan NuGet paketlerine başvuru yapıyor. Bunları indirmek için NuGet Paket Geri Yükleme'yi kullanın. Daha fazla bilgi için, bkz. http://go.microsoft.com/fwlink/?LinkID=322105. Eksik dosya: {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.Web.WebView2.1.0.2535.41\build\Microsoft.Web.WebView2.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Web.WebView2.1.0.2535.41\build\Microsoft.Web.WebView2.targets'))" />
+  </Target>
+</Project>
