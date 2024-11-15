@@ -11,7 +11,7 @@ Emancipated Checker is a tool designed for users to utilize query systems effect
 ### 2. Clone the Repository
 - Clone the forked repository to your local machine using the command:
   ```bash
-  git clone https://github.com/your-username/emancipated-checker.git
+  git clone https://github.com/devatrix/emancipated-checker.git
   ```
 - Navigate into the project directory:
   ```bash
