@@ -56,10 +56,6 @@ Emancipated Checker is a tool designed for users to utilize query systems effect
 - Select your branch and submit the pull request for review.
 - Provide a detailed description of your changes.
 
-## Code of Conduct
-- Ensure your contributions follow the project’s [Code of Conduct](CODE_OF_CONDUCT.md).
-- Be respectful and constructive in all interactions.
-
 ## Installation from CD (For Testing Purposes)
 1. Insert the Emancipated Checker CD into your computer.
 2. When the autoplay window opens, click on "Open Application."
